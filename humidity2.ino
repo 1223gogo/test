@@ -9,7 +9,7 @@ void setup(){
     Serial.begin(9600);
     dht.begin();
     Serial.println("Start DHT");
-}
+  }
 
 void loop(){
     delay(2000);
